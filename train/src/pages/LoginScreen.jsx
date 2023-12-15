@@ -59,7 +59,6 @@ const LoginScreen = () => {
                         required
                         onChange={(e) => setPassword(e.target.value)}/>
                     </div>
-                    <a href='/forget'>Forget password?</a>
                     <div className='text-1'>
                         <a href='/register'>Create account</a>
                         <button>Next</button>
