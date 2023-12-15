@@ -3,7 +3,7 @@ import Register2Screen from './pages/Register2Screen'
 import Register4Screen from './pages/Register4Screen'
 import Register5Screen from './pages/Register5Screen'
 import RegisterScreen from './pages/RegisterScreen'
-import LoginScreen from './pages/loginScreen'
+import LoginScreen from './pages/LoginScreen'
 import './styles/app.scss'
 import { BrowserRouter , Route, Routes } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
