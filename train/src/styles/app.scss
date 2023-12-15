@@ -1,0 +1,49 @@
+@import "auth.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Noto+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-ctn{
+    height: 60vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .card{
+        margin-top: -20%;
+        border: 1px solid black;
+        padding: 50px;
+        display: grid;
+        text-align: start;
+        h1{
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+    }
+}
+
+
+
+.navbar-ctn{
+    display: flex;
+    justify-content: space-between;
+    .logout{
+        margin-top: 2%;
+        margin-right: 5%;   
+        border: 1px solid rgb(255, 255, 255);
+        background-color: white;
+    }
+    button{
+        cursor: pointer;
+        text-decoration: none;
+    }
+    img{
+        width: 90px;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+}

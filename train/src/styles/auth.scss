@@ -1,0 +1,162 @@
+.auth-ctn{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    .card{
+        width: 400px;
+        height: 450px;
+        border: 1px solid rgb(221, 221, 221);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        .text{
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            .crete{
+                font-size: 1.5rem;
+            }
+            h1{
+                font-weight: normal;
+                font-size: 2rem;
+            }
+            p{
+                margin-top: 4%;
+            }
+            .detail{
+                font-size: 1rem;
+                width: 300px;
+            }
+            .logo{
+                display: grid;
+                justify-content: center;
+                img{
+                    width: 70px;
+                }
+            }
+        }
+        .form{
+            width: 100%;
+            form{
+                .text-user{
+                    font-size: 0.3rem;
+                    color: rgb(145, 142, 142);
+                }
+                .gmail{
+                    font-size: 1rem;
+                    font-weight: normal;
+                    position: absolute;
+                    margin-left: 200px;
+                    margin-top: 12px;
+                    color: rgb(75, 74, 74);
+                    label{
+                        position: absolute;
+                        margin-top: 21px;
+                        font-weight: 100;
+                        color: rgb(179, 176, 176);
+                        z-index: 1px;
+                        background-color: white;
+                        border-radius: 30px;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                }
+                .input-select{
+                    font-weight: 100;
+                    select{
+                        padding: 10px;
+                        width: 100%;
+                        height: 50px;
+                        border: 1px solid rgb(221, 221, 221);
+                        font-weight: 100;
+                    }
+                }
+                .input{
+                    position: relative;
+                    margin-top: 5%;
+                    font-size: 11px;
+                    background-color: white;
+                    input:hover{
+                        border: 1px solid rgb(52, 120, 221);
+                    }
+                    input{
+                        border-radius: 5px;
+                        border: 1px solid rgb(221, 221, 221);
+                        height: 25px;
+                        width: 95%;
+                        padding: 10px;
+                    }
+                }
+                .input-infomation{
+                    select{
+                        padding: 10px;
+                        border: 1px solid rgb(221, 221, 221);
+                    }
+                    position: relative;
+                    margin-top: 5%;
+                    font-size: 11px;
+                    background-color: white;
+                    display: grid;
+                    grid-template-columns: repeat(3 , 1fr);
+                    gap: 0.6rem;
+                    input:hover{
+                        border: 1px solid rgb(52, 120, 221);
+                    }
+                    input{
+                        border-radius: 5px;
+                        border: 1px solid rgb(221, 221, 221);
+                        height: 25px;
+                        width: 80%;
+                        padding: 10px;
+                    }
+                }
+                label{
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: -7px;
+                    font-weight: 100;
+                    color: rgb(179, 176, 176);
+                    z-index: 1px;
+                    background-color: white;
+                    border-radius: 30px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                width: 300px;
+                margin-top: -20%;
+                display: grid;
+                gap: 0.5rem;
+                .text-1{
+                    display: flex;
+                    margin-top: 20%;
+                    justify-content: space-between;
+                }
+                a{
+                    color: rgb(7, 83, 197);
+                    font-weight: 500;
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    letter-spacing: 0.1px;
+                }
+                button{
+                    width: 70px;
+                    height: 35px;
+                    margin-top: -3%;
+                    border: 1px solid white;
+                    background-color: rgb(52, 120, 221);
+                    color: white;
+                    font-size: 0.7rem;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: rgb(30, 108, 226);
+                }
+            }
+        }
+    }
+}
