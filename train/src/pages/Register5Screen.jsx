@@ -55,7 +55,7 @@ const Register5Screen = () => {
           })
       );
       try {
-        const { data } = await Axios.post(`http://localhost:8000/api/users/signup`,
+        const { data } = await Axios.post(`https://api-sendwork.onrender.com/api/users/signup`,
          {
             firstName,
             lastName,
